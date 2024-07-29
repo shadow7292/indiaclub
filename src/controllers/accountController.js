@@ -18,7 +18,6 @@ const randomString = (length) => {
     return result;
 }
 
-
 const randomNumber = (min, max) => {
     return String(Math.floor(Math.random() * (max - min + 1)) + min);
 }
